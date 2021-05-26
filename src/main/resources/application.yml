@@ -1,0 +1,19 @@
+
+server:
+  port: 8088
+
+#spring:
+#  data:
+#    mongodb:
+#      uri: mongodb://172.28.16.1/reactive_mongodb
+
+reactive:
+  mongodb:
+    name: reactive_mongodb
+    username: ""
+    password: ""
+    uri: mongodb://192.168.1.103/reactive_mongodb
+
+  h2:
+    console:
+      enabled: true
